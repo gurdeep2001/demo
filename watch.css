@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+html,body{
+    font-family: 'Poppins',sans-serif;
+    height: 100%;
+    margin: auto;
+    background-image: url("https://cdn.pixabay.com/photo/2022/10/03/23/41/house-7497001_960_720.png");
+}
+.header{
+    display: inline;
+    padding-top: 2px;
+}
+.left{
+    position: absolute;
+    margin-top: 1rem;
+    padding-top: 4px;
+    left: 3rem;
+}
+.txt{
+    position: absolute;
+    right: 13rem;
+    top: 3.3rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+.right{
+    position: absolute;
+    margin-top: 0rem;
+    right: 3rem;
+}
+.wrapper{
+    margin: auto;
+    height: 100px;
+    width: 360px;
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 37%;
+    cursor: default;
+    background: linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+    border-radius: 10px;
+}
+.wrapper .display{
+    margin: auto;
+    position: absolute;
+    top: 49.89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1b1b1b;
+    height: 85px;
+    width: 345px;
+    border-radius: 6px;
+    text-align: center;
+}
+.wrapper .display #time{
+    line-height: 85px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* counter */
+#container{
+    height: 100px;
+    width: 250px;
+    background: cornsilk;
+    border: 1px solid none;
+    position: absolute;
+    border-radius: 45px;
+    top: 33.7rem;
+    left: 41%;
+    right: 41rem;
+}
+#container h2{
+    color: darkblue;
+    font-size: 30px;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+}
+#container h1{
+    width: 250px;
+    height: 110px;
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+    top: 22%;
+    color: darkorange;
+}
